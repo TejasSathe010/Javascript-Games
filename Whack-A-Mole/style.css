@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.container {
+	font-family: 'Roboto', sans-serif;
+	min-width: 470px;
+	width: 100%;
+	height: 100vh;
+	background-color: rgb(248, 239, 239);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+h2 {
+	width: 100%;
+	text-align: center;
+	color: rgb(196, 21, 219);
+}
+
+.grid {
+	width: 506px;
+	height: 506px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.square {
+	height: 150px;
+	width: 150px;
+	border: solid rgb(196, 21, 219) 1px;
+}
+
+.mole {
+	background-image: url("mole.jpeg");
+	background-size: cover;
+}
